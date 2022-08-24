@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+} 
+
+.first-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px 200px 150px;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.Logo {
+    font-size: 24px;
+    color: #F9faf8;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Hero {
+    display: flex;
+}
