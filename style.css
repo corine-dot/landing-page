@@ -33,4 +33,37 @@ body {
 
 .Hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-top: 100px;
+
+}
+
+.hero-main,
+.image {
+    height: 250px;
+    width: 480px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-right: 50px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 30px;
+}
+
+.image {
+    background-color: grey;
 }
