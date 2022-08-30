@@ -67,3 +67,32 @@ button {
 .image {
     background-color: grey;
 }
+
+.title {
+    text-align: center;
+    margin: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.text {
+    text-align: center;
+    width: 160px;
+    font-size: 20px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 100px;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
