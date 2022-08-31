@@ -164,3 +164,13 @@ button {
     text-align: center;
     padding-top: 7px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9faf8;
+    font-size: 18px;
+}
