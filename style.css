@@ -37,7 +37,6 @@ body {
     align-items: center;
     height: 250px;
     margin-top: 100px;
-
 }
 
 .hero-main,
@@ -61,7 +60,13 @@ body {
 
 button {
     background-color: #3882f6;
-    font-size: 30px;
+    font-size: 18px;
+    color: #F9faf8;
+    border-color: #3882f6;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
 }
 
 .image {
@@ -95,4 +100,32 @@ button {
     height: 160px;
     border-radius: 8px;
     border: 3px solid #3882f6;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.author-name {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+}
+
+.fourth-section {
+    display: flex;
+    height: 350px;
+    padding: 100px 250px;
 }
