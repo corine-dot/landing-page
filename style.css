@@ -122,10 +122,45 @@ button {
     display: flex;
     justify-content: flex-end;
     font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .fourth-section {
     display: flex;
     height: 350px;
-    padding: 100px 250px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-container {
+    display: flex;
+    background-color: #3882f6;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+    gap: 150px;
+    padding: 50px 150px;
+    border-radius: 8px;
+}
+
+.sign-up {
+    color: #F9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.fourth-container > button {
+    border-color: #F9faf8;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    padding-top: 7px;
 }
